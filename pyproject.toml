@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "airflow"
+version = "0.1.0"
+description = "Gerenciamento de Rotinas ETL com Airflow"
+authors = ["heldeveloper <heliezer.developer@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+apache-airflow = "^2.3.1"
+apache-airflow-providers-docker = "^2.7.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
